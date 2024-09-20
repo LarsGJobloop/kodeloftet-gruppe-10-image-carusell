@@ -15,12 +15,35 @@ ol {
   height: 100vh;
   overflow: hidden;
 }
+
+/* Controll Plane */
 .carusell > div {
   position: absolute;
   z-index: 1;
   width: 100%;
   height: 100%;
+
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
 }
+
+#next-button {
+  grid-column: 3 / 4;
+  grid-row: 2 / 3;
+}
+#previous-button {
+  grid-column: 1 / 2;
+  grid-row: 2 / 3;
+}
+#specific-buttons {
+  grid-column: 2 / 3;
+  grid-row: 3 / 4;
+  align-self: end;
+  justify-self: center;
+}
+
+/* Image Reel */
 .carusell > ol {
   position: absolute;
   width: 100%;
