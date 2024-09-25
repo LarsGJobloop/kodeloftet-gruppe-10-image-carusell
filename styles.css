@@ -12,16 +12,14 @@ ol {
 /* Carusell */
 .carusell {
   position: relative;
-  height: 100vh;
-  overflow: hidden;
 }
 
 /* Controll Plane */
 .carusell > div {
   position: absolute;
-  z-index: 1;
-  width: 100%;
+
   height: 100%;
+  width: 100%;
 
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
@@ -42,14 +40,18 @@ ol {
   align-self: end;
   justify-self: center;
 }
+.carusell button {
+  opacity: 0.5;
+}
 
 /* Image Reel */
 .carusell > ol {
-  position: absolute;
-  width: 100%;
-  height: 100%;
+  display: flex;
+
+  width: 100vw;
+  overflow: hidden;
 }
 
 .carusell img {
-  height: 100%;
+  height: 100vh;
 }
