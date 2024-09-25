@@ -44,6 +44,15 @@ ol {
   border: none;
   background-color: transparent;
   color: white;
+
+  transition: all 200ms ease-in-out;
+}
+.carusell button:hover {
+  scale: 1.2;
+  filter: drop-shadow(1px 1px 12px white);
+}
+.carusell button:active {
+  scale: 0.8;
 }
 
 /* Image Reel */
