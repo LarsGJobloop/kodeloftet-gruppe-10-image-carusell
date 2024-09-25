@@ -41,7 +41,9 @@ ol {
   justify-self: center;
 }
 .carusell button {
-  opacity: 0.5;
+  border: none;
+  background-color: transparent;
+  color: white;
 }
 
 /* Image Reel */
@@ -51,6 +53,7 @@ ol {
 
   width: 100vw;
   overflow: hidden;
+  background-color: black;
 }
 
 .carusell img {
